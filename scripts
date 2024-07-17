@@ -1,0 +1,9 @@
+document.getElementById('tap-to-play').addEventListener('click', function() {
+    startGame(); // Call your start game function here
+});
+
+function startGame() {
+    // Your game starting logic here
+    console.log("Game Started");
+    document.getElementById('tap-to-play').style.display = 'none'; // Hide the button after starting the game
+}
