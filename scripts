@@ -1,9 +1,12 @@
-document.getElementById('tap-to-play').addEventListener('click', function() {
-    startGame(); // Call your start game function here
+document.getElementById('tapToPlay').addEventListener('click', function() {
+    // Hide the tap-to-play screen
+    this.classList.add('hidden');
+
+    // Start the game logic here
+    startGame();
 });
 
 function startGame() {
-    // Your game starting logic here
-    console.log("Game Started");
-    document.getElementById('tap-to-play').style.display = 'none'; // Hide the button after starting the game
+    // Your game start logic
+    console.log('Game Started');
 }
