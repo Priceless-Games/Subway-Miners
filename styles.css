@@ -1,20 +1,35 @@
-.tap-to-play {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: for a slight overlay */
-    cursor: pointer;
-    z-index: 1000; /* Ensure it appears above other elements */
-    color: white;
-    font-size: 2em;
-    text-align: center;
+/* Base button style */
+.animated-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(45deg, #ff6b6b, #f06595);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.tap-to-play.hidden {
-    display: none;
+/* Hover effect */
+.animated-button:hover {
+  background: linear-gradient(135deg, #ff6b6b, #f06595);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Active effect */
+.animated-button:active {
+  transform: scale(1.02);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus effect */
+.animated-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(240, 101, 149, 0.5);
 }
