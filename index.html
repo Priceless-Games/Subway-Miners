@@ -1,13 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subway Miners</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="game.js" defer></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>SUBWAY MINERS</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: 'Helvetica', sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .title {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .start-button {
+            padding: 10px 20px;
+            font-size: 1.5em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .start-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <div id="game-container"></div>
+    <div class="container">
+        <img src="images_IMG_0582_image.jpg" alt="SUBWAY MINERS" style="max-width: 100%; height: auto;"/>
+        <div class="title">SUBWAY MINERS</div>
+        <button class="start-button" onclick="window.location.href='https://html5.inlogic.sk/railrunner/'">Start</button>
+    </div>
 </body>
 </html>
