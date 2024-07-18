@@ -1,4 +1,4 @@
-# Testnet
+
 # Subway Miners Telegram Bot
 
 Subway Miners is a mini game Telegram bot where users can navigate a virtual subway environment, avoiding obstacles and collecting power-ups.
