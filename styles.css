@@ -1,2 +1,46 @@
 body {
-    background-image: url('https://export-download.canva.com/1OPCA/DAGLSd1OPCA/4/0/0001-1351514512142556334.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20240717%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240717T140306Z&X-Amz-Expires=75531&X-Amz-Signature=5f9037083ec59
+    background-image: url('https://i.ibb.co/T1WGWLh/7-DCF17-FB-1-DC3-4325-9-EEC-57-C4120-EC0-EF.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background to improve text readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.start-button {
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(255, 64, 129, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.start-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 30px rgba(255, 64, 129, 0.7);
+}
+
+.start-button:active {
+    transform: scale(0.9);
+    box-shadow: 0 5px 10px rgba(255, 64, 129, 0.5);
+}
+
+.game-title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
